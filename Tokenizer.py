@@ -1,11 +1,11 @@
 import torch
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
-model = GPT2LMHeadModel.from_pretrained("/WORK/Test/gpt", torchscript=True).eval()
+model = GPT2LMHeadModel.from_pretrained('gpt2',torchscript=True).eval()
 
 # tokenizer
-tokenizer = GPT2Tokenizer.from_pretrained("/WORK/Test/gpt")
-in_text = "Lionel Messi is a"
+tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
+in_text = "Zhenyu is a student in RPI"
 in_tokens = torch.tensor(tokenizer.encode(in_text))
 
 # inference

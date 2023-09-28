@@ -5,10 +5,9 @@ model = GPT2LMHeadModel.from_pretrained('gpt2',torchscript=True).eval()
 
 # tokenizer
 tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
-#132332312
 in_text = "Zhenyu is a student in RPI"
 in_tokens = torch.tensor(tokenizer.encode(in_text))
-
+#asdasd
 # inference
 token_eos = torch.tensor([198]) # line break symbol
 out_token = None

@@ -1,7 +1,6 @@
 import torch
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
-
 model = GPT2LMHeadModel.from_pretrained("/WORK/Test/gpt", torchscript=True).eval()
 
 # tokenizer

@@ -1,0 +1,52 @@
+step 0 input: 's
+step 1 input:  Department
+step 2 input:  of
+step 3 input:  Philosophy
+step 4 input:  and
+step 5 input:  Science
+step 6 input: .
+step 7 input:  He
+step 8 input:  is
+step 9 input:  a
+step 10 input:  member
+step 11 input:  of
+step 12 input:  the
+step 13 input:  faculty
+step 14 input:  of
+step 15 input:  the
+step 16 input:  University
+step 17 input:  of
+step 18 input:  R
+step 19 input: PI
+step 20 input: 's
+step 21 input:  Department
+step 22 input:  of
+step 23 input:  Philosophy
+step 24 input:  and
+step 25 input:  Science
+step 26 input: .
+step 27 input:  He
+step 28 input:  is
+step 29 input:  a
+step 30 input:  member
+step 31 input:  of
+step 32 input:  the
+step 33 input:  faculty
+step 34 input:  of
+step 35 input:  the
+step 36 input:  University
+step 37 input:  of
+step 38 input:  R
+step 39 input: PI
+step 40 input: 's
+step 41 input:  Department
+step 42 input:  of
+step 43 input:  Philosophy
+step 44 input:  and
+step 45 input:  Science
+step 46 input: .
+step 47 input: 
+
+ Input: Zhenyu is a student in RPI
+Output: Zhenyu is a student in RPI's Department of Philosophy and Science. He is a member of the faculty of the University of RPI's Department of Philosophy and Science. He is a member of the faculty of the University of RPI's Department of Philosophy and Science.
+

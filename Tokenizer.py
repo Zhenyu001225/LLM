@@ -1,5 +1,6 @@
 import torch
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
+import time
 
 model = GPT2LMHeadModel.from_pretrained('gpt2',torchscript=True).eval()
 
@@ -20,7 +21,6 @@ with torch.no_grad():
         text = tokenizer.decode(in_tokens)
         print(f'step {i} input: {text}', flush=True)
         i += 1
-
 out_text = tokenizer.decode(in_tokens)
 print(f' Input: {in_text}')
 print(f'Output: {out_text}')
